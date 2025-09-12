@@ -1,0 +1,18 @@
+s3:
+  enable: true
+
+
+aws:
+  access-key: ${AWS_ACCESS_KEY}
+  secret-key: ${AWS_SECRET_KEY}
+  # default region: us-east-1
+  region: ${AWS_REGION:us-east-1}
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: custom-spring-starter-example-app
+
+server:
+  port: 8080
