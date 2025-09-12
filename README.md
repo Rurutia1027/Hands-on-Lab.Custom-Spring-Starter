@@ -1,4 +1,5 @@
-# Hands-on Lab: Custom Spring Starter for AWS S3  | [![Hands on Custom Spring Starter for AWS S3 - CI Pipeline](https://github.com/Rurutia1027/Hands-on-Lab.Custom-Spring-Starter/actions/workflows/ci-pipeline.yml/badge.svg)](https://github.com/Rurutia1027/Hands-on-Lab.Custom-Spring-Starter/actions/workflows/ci-pipeline.yml)
+# Hands-on Lab: Custom Spring Starter for AWS S3  
+[![Hands on Custom Spring Starter for AWS S3 - CI Pipeline](https://github.com/Rurutia1027/Hands-on-Lab.Custom-Spring-Starter/actions/workflows/ci-pipeline.yml/badge.svg)](https://github.com/Rurutia1027/Hands-on-Lab.Custom-Spring-Starter/actions/workflows/ci-pipeline.yml)
 
 This is a **hands-on example** of building a custom Spring Starter for AWS S3. The starter encapsulates **AWS SDK configuration** and exposes a simple S3Service bean, so your Spring Boot applications can use S3 with minimal setup. 
 
