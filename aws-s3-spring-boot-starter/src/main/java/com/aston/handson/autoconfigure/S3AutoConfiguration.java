@@ -17,7 +17,7 @@ import software.amazon.awssdk.services.s3.S3Client;
 public class S3AutoConfiguration {
     @Bean
     public S3Client s3Client(S3Properties properties) {
-        return S3Client.builder()
+        S3Client s3Client = S3Client.builder()
                 .region(Region.of(properties.getRegion()))
                 .credentialsProvider(
                         StaticCredentialsProvider.create(
@@ -25,6 +25,8 @@ public class S3AutoConfiguration {
                         )
                 )
                 .build();
+        // System.out.println(s3Client.listBuckets());
+        return s3Client;
     }
 
     @Bean

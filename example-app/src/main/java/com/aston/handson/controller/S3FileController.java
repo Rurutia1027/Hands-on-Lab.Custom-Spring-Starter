@@ -24,7 +24,7 @@ public class S3FileController {
      */
     @GetMapping("/health")
     public String healthCheck() {
-        if (s3ClientService != null) {
+        if (s3ClientService != null && s3ClientService.isS3ClientAvailable()) {
             return "S3ClientService is available!";
         } else {
             return "S3ClientService is null!";

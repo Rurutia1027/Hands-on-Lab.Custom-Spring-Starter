@@ -1,10 +1,9 @@
 s3:
   enable: true
 
-
 aws:
-  access-key: ${AWS_ACCESS_KEY}
-  secret-key: ${AWS_SECRET_KEY}
+  access-key: AKIAZGHWLJCCKGZXTIH4
+  secret-key: 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
   # default region: us-east-1
   region: ${AWS_REGION:us-east-1}
 

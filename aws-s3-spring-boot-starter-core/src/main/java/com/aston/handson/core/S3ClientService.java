@@ -12,12 +12,17 @@ import software.amazon.awssdk.services.s3.model.S3Object;
 
 import java.nio.file.Path;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
 public class S3ClientService {
     private final S3Client s3Client;
+
+    public boolean isS3ClientAvailable() {
+        return Objects.nonNull(s3Client) && Objects.nonNull(s3Client.listBuckets());
+    }
 
     /**
      * Upload file from file path

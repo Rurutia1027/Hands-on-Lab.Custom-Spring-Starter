@@ -6,8 +6,4 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class S3BaseConfiguration {
-    @Bean
-    public S3ClientService s3ClientService() {
-        return new S3ClientService(null);
-    }
 }
