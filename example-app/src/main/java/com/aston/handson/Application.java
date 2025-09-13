@@ -1,6 +1,6 @@
 package com.aston.handson;
 
-import com.aston.handson.annotation.EnableS3Starter;
+import com.aston.handson.enable.EnableS3Starter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

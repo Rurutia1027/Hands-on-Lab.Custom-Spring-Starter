@@ -1,6 +1,5 @@
-package com.aston.handson.annotation;
+package com.aston.handson.enable;
 
-import com.aston.handson.autoconfigure.S3BaseConfiguration;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.Documented;
@@ -11,7 +10,7 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
+@Import(MarkerConfiguration.class)
 @Documented
-@Import(S3BaseConfiguration.class)
 public @interface EnableS3Starter {
 }

@@ -1,6 +1,6 @@
 package com.aston.handson.controller;
 
-import com.aston.handson.core.S3ClientService;
+import com.aston.handson.core.service.S3ClientService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

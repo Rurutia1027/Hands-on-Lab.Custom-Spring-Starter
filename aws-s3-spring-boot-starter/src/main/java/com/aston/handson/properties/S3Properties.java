@@ -1,4 +1,4 @@
-package com.aston.handson.autoconfigure;
+package com.aston.handson.properties;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

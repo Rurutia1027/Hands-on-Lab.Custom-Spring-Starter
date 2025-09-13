@@ -1,4 +1,4 @@
-package com.aston.handson.core;
+package com.aston.handson.core.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -22,19 +22,6 @@ public class S3ClientService {
 
     public boolean isS3ClientAvailable() {
         return Objects.nonNull(s3Client) && Objects.nonNull(s3Client.listBuckets());
-    }
-
-    /**
-     * Upload file from file path
-     */
-    public void upload(String bucket, String key, String filePath) {
-        s3Client.putObject(
-                PutObjectRequest.builder()
-                        .bucket(bucket)
-                        .key(key)
-                        .build(),
-                Path.of(filePath)
-        );
     }
 
     /**
