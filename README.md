@@ -5,6 +5,8 @@ This is a **hands-on example** of building a custom Spring Starter for AWS S3. T
 
 <img width="1280" height="687" alt="image" src="https://github.com/user-attachments/assets/e56ea08b-1e83-49d3-8b7e-cf3e041e51f8" />
 
+<img width="900" height="561" alt="Screenshot 2025-09-13 at 11 37 31" src="https://github.com/user-attachments/assets/f0f24570-dc35-48d2-b1a2-ecc44780d164" />
+
 
 The project demonstrates:
 - How to create a **custom Spring Starter**
