@@ -2,6 +2,7 @@ s3:
   enable: true
 
 aws:
+  # tmp access key & securet, will destroy after commit code to GitHub
   access-key: AKIAZGHWLJCCKGZXTIH4
   secret-key: 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
   # default region: us-east-1
