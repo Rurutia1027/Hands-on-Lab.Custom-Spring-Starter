@@ -3,8 +3,8 @@ s3:
 
 aws:
   # tmp access key & securet, will destroy after commit code to GitHub
-  access-key: AKIAZGHWLJCCKGZXTIH4
-  secret-key: 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
+  access-key: ${AWS_ACCESS_KEY}
+  secret-key: ${AWS_SECRET_KEY}
   # default region: us-east-1
   region: ${AWS_REGION:us-east-1}
 
