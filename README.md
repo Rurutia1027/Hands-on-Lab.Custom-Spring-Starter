@@ -3,7 +3,7 @@
 
 This is a **hands-on example** of building a custom Spring Starter for AWS S3. The starter encapsulates **AWS SDK configuration** and exposes a simple S3Service bean, so your Spring Boot applications can use S3 with minimal setup. 
 
-I have a more detailed explanation for you on 👉 [Medium](https://medium.com/@rurutia1027/hands-on-custom-spring-boot-starter-for-aws-s3-integration-ceeed67fa268).
+I have a more detailed explanation on 👉 [Medium](https://medium.com/@rurutia1027/hands-on-custom-spring-boot-starter-for-aws-s3-integration-ceeed67fa268).
 
 <img width="1280" height="687" alt="image" src="https://github.com/user-attachments/assets/e56ea08b-1e83-49d3-8b7e-cf3e041e51f8" />
 
